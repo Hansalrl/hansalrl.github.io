@@ -5,9 +5,17 @@
   <title>Typing SVG</title>
 </head>
 <body>
-  <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?size=30&amp;font=Satisfy&amp;color=4c566a&amp;center=true&amp;vCenter=true&amp;lines=Yohanes+Sabattian+Adeleony.;22+Tahun;Kota+Semarang+Jawa+Tengah" alt="Typing SVG">
-  </p>
+  <div id="typing"></div>
+  <script src="https://cdn.jsdelivr.net/npm/readme-typing-svg@1.2.0/dist/index.min.js"></script>
+  <script>
+    new Typing({
+      element: document.getElementById("typing"),
+      strings: ["Yohanes Sabattian Adeleony.", "22 Tahun", "Kota Semarang Jawa Tengah"],
+      typeSpeed: 80,
+      deleteSpeed: 50,
+      pauseTime: 1500,
+      loop: true
+    });
+  </script>
 </body>
 </html>
-
